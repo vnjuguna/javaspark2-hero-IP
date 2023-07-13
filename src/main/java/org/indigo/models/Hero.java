@@ -8,7 +8,7 @@ class Hero {
     private Date dateOfBirth;
     private String power;
     private String weakness;
-    private String squad;
+    private Squad squad;
 
     public int getId() {
         return id;
@@ -50,11 +50,11 @@ class Hero {
         this.weakness = weakness;
     }
 
-    public String getSquad() {
+    public Squad getSquad() {
         return squad;
     }
 
-    public void setSquad(String squad) {
+    public void setSquad(Squad squad) {
         this.squad = squad;
     }
 }

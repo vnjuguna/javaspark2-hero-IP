@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f766399-76ea-4b65-8138-d41088d8c470" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/indigo/models/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/indigo/models/Hero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
