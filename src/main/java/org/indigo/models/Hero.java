@@ -7,7 +7,7 @@ import java.util.Date;
 class Hero {
     private int id;
     private String name;
-    private Date dateOfBirth;
+    private LocalDate dateOfBirth;
     private String power;
     private String weakness;
     private Squad squad;
@@ -28,11 +28,11 @@ class Hero {
         this.name = name;
     }
 
-    public Date getDateOfBirth() {
+    public LocalDate getDateOfBirth() {
         return dateOfBirth;
     }
 
-    public void setDateOfBirth(Date dateOfBirth) {
+    public void setDateOfBirth(LocalDate dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
 
@@ -63,7 +63,7 @@ class Hero {
     public long getAge() {
         LocalDate today = LocalDate.now();
         long dateDifferenceYears = ChronoUnit.YEARS.between(
-                this.dateOfBirth.toInstant(), today);
+                this.dateOfBirth, today);
         return dateDifferenceYears;
     }
 }
