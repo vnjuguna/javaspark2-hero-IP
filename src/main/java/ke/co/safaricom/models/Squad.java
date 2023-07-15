@@ -1,4 +1,4 @@
-package org.indigo.models;
+package ke.co.safaricom.models;
 
 class Squad {
 

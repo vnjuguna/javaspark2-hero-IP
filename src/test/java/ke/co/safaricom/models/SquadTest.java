@@ -1,10 +1,8 @@
-package org.indigo.models;
+package ke.co.safaricom.models;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class SquadTest {
 

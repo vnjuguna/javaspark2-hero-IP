@@ -1,4 +1,4 @@
-package org.indigo.models;
+package ke.co.safaricom.models;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
