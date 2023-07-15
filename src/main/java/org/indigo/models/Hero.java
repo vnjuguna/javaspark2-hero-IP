@@ -1,5 +1,7 @@
 package org.indigo.models;
 
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
 class Hero {
@@ -56,5 +58,12 @@ class Hero {
 
     public void setSquad(Squad squad) {
         this.squad = squad;
+    }
+
+    public long getAge() {
+        LocalDate today = LocalDate.now();
+        long dateDifferenceYears = ChronoUnit.YEARS.between(
+                this.dateOfBirth.toInstant(), today);
+        return dateDifferenceYears;
     }
 }
