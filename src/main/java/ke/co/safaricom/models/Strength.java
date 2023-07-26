@@ -5,6 +5,17 @@ public class Strength {
     private String name;
     private int score;
     private boolean deleted = false;
+
+    @Override
+    public String toString() {
+        return "Strength{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", score=" + score +
+                ", deleted=" + deleted +
+                '}';
+    }
+
     public Strength() {
 
         this.deleted = false;
