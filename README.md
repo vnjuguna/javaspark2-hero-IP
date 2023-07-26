@@ -6,7 +6,9 @@ Hero Squad
 ## Technologies Used
 - Java
 - GIT and GITHUB
-
+- PostgreSQL
+- IntelliJ
+- 
 ## Complete Setup Instructions
 - Git clone https://github.com/vnjuguna/herosquadtrial.git
 - Open the cloned Code on Vs Code

@@ -5,7 +5,11 @@ public class Strength {
     private String name;
     private int score;
     private boolean deleted = false;
+    public Strength() {
 
+        this.deleted = false;
+
+    }
     public int getId() {
         return id;
     }
@@ -38,7 +42,5 @@ public class Strength {
         this.deleted = deleted;
     }
 
-    public Strength() {
 
-    }
 }
