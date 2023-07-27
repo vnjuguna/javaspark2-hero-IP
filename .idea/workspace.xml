@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f766399-76ea-4b65-8138-d41088d8c470" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/dao/HeroDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/dao/SquadDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/dto/SquadInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/create-strength.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/models/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/models/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/models/Squad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/models/Squad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/models/Strength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/models/Strength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ke/co/safaricom/models/SquadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ke/co/safaricom/models/SquadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
