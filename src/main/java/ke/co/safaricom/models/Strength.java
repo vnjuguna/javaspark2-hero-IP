@@ -4,7 +4,7 @@ public class Strength {
     private int id;
     private String name;
     private int score;
-    private boolean deleted = false;
+    private boolean deleted;
 
     @Override
     public String toString() {
@@ -17,10 +17,9 @@ public class Strength {
     }
 
     public Strength() {
-
         this.deleted = false;
-
     }
+
     public int getId() {
         return id;
     }
@@ -52,6 +51,4 @@ public class Strength {
     public void setDeleted(boolean deleted) {
         this.deleted = deleted;
     }
-
-
 }

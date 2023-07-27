@@ -1,14 +1,26 @@
 package ke.co.safaricom.models;
 
-class Squad {
-
+public class Squad {
     private int id;
-
     private String name;
-
-    private int maxSize;
-
     private String cause;
+    private int max_size;
+    private boolean deleted;
+
+    public Squad() {
+        this.deleted =false;
+    }
+
+    @Override
+    public String toString() {
+        return "Squad{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", cause='" + cause + '\'' +
+                ", max_size=" + max_size +
+                ", deleted=" + deleted +
+                '}';
+    }
 
     public int getId() {
         return id;
@@ -26,14 +38,6 @@ class Squad {
         this.name = name;
     }
 
-    public int getMaxSize() {
-        return maxSize;
-    }
-
-    public void setMaxSize(int maxSize) {
-        this.maxSize = maxSize;
-    }
-
     public String getCause() {
         return cause;
     }
@@ -41,4 +45,22 @@ class Squad {
     public void setCause(String cause) {
         this.cause = cause;
     }
+
+    public int getMax_size() {
+        return max_size;
+    }
+
+    public void setMax_size(int max_size) {
+        this.max_size = max_size;
+    }
+
+    public boolean isDeleted() {
+        return deleted;
+    }
+
+    public void setDeleted(boolean deleted) {
+        this.deleted = deleted;
+    }
+
+
 }

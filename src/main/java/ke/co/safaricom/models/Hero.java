@@ -1,15 +1,31 @@
 package ke.co.safaricom.models;
 
-import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
 
-class Hero {
+
+public class Hero {
     private int id;
     private String name;
-    private LocalDate dateOfBirth;
-    private String power;
-    private String weakness;
-    private Squad squad;
+    private String cause;
+    private int age;
+    private int strength_id;
+
+    public Hero() {
+    this.deleted = false;
+    }
+
+    @Override
+    public String toString() {
+        return "Hero{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", cause='" + cause + '\'' +
+                ", age=" + age +
+                ", strength_id=" + strength_id +
+                ", weakness_id=" + weakness_id +
+                ", squad_id=" + squad_id +
+                ", deleted=" + deleted +
+                '}';
+    }
 
     public int getId() {
         return id;
@@ -27,42 +43,57 @@ class Hero {
         this.name = name;
     }
 
-    public LocalDate getDateOfBirth() {
-        return dateOfBirth;
+    public String getCause() {
+        return cause;
     }
 
-    public void setDateOfBirth(LocalDate dateOfBirth) {
-        this.dateOfBirth = dateOfBirth;
+    public void setCause(String cause) {
+        this.cause = cause;
     }
 
-    public String getPower() {
-        return power;
+    public int getAge() {
+        return age;
     }
 
-    public void setPower(String power) {
-        this.power = power;
+    public void setAge(int age) {
+        this.age = age;
     }
 
-    public String getWeakness() {
-        return weakness;
+    public int getStrength_id() {
+        return strength_id;
     }
 
-    public void setWeakness(String weakness) {
-        this.weakness = weakness;
+    public void setStrength_id(int strength_id) {
+        this.strength_id = strength_id;
     }
 
-    public Squad getSquad() {
-        return squad;
+    public int getWeakness_id() {
+        return weakness_id;
     }
 
-    public void setSquad(Squad squad) {
-        this.squad = squad;
+    public void setWeakness_id(int weakness_id) {
+        this.weakness_id = weakness_id;
     }
 
-    public long getAge() {
-        LocalDate today = LocalDate.now();
-        long dateDifferenceYears = ChronoUnit.YEARS.between(
-                this.dateOfBirth, today);
-        return dateDifferenceYears;
+    public int getSquad_id() {
+        return squad_id;
     }
+
+    public void setSquad_id(int squad_id) {
+        this.squad_id = squad_id;
+    }
+
+    public boolean isDeleted() {
+        return deleted;
+    }
+
+    public void setDeleted(boolean deleted) {
+        this.deleted = deleted;
+    }
+
+    private int weakness_id;
+    private int squad_id;
+    private boolean deleted;
+
+
 }

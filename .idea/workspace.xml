@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f766399-76ea-4b65-8138-d41088d8c470" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/dao/StrengthDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/dao/HeroDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/dao/SquadDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/dto/SquadInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/create-strength.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/models/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/models/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/models/Squad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/models/Squad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/models/Strength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/models/Strength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ke/co/safaricom/models/SquadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ke/co/safaricom/models/SquadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +34,17 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="herosquadtrial" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -34,6 +52,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -52,6 +71,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -68,6 +88,9 @@
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.indigo.models" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ke.co.safaricom.dao" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
