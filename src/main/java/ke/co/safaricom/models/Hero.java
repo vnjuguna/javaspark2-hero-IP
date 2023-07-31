@@ -9,6 +9,7 @@ public class Hero {
     private int age;
     private int strength_id;
 
+
     public Hero() {
     this.deleted = false;
     }
